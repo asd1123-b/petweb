@@ -1,11 +1,14 @@
-.navbar {
-  padding-top: 15px;
-  padding-bottom: 13px;
-}
 .navbar-nav {
   padding: 0;
 }
 
 .navbar-nav li a {
   padding: 0;
+}
+
+.headerspace {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 85px;
+  padding-right: 85px;
 }
