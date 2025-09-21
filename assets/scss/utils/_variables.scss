@@ -475,7 +475,9 @@ $spacers: (
   // 28px
   14: $spacer * 1.75,
   // 6px
-  15: $spacer * 0.375
+  15: $spacer * 0.375,
+  // 100px
+  16: $spacer * 6.25
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -709,12 +711,18 @@ $h6-font-size: $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
+  // 40px
   1: $h1-font-size,
+  // 32px
   2: $h2-font-size,
+  // 28px
   3: $h3-font-size,
+  // 24px
   4: $h4-font-size,
+  // 20px
   5: $h5-font-size,
-  6: $h6-font-size,
+  // 16px
+  6: $h6-font-size
 ) !default;
 // scss-docs-end font-sizes
 
@@ -722,8 +730,10 @@ $font-sizes: (
 $headings-margin-bottom: $spacer * 0.5 !default;
 $headings-font-family: null !default;
 $headings-font-style: null !default;
-$headings-font-weight: 500 !default;
-$headings-line-height: 1.2 !default;
+// $headings-font-weight: 500 !default;
+// $headings-line-height: 1.2 !default;
+$headings-font-weight: 700 !default;
+$headings-line-height: 1.5 !default;
 $headings-color: inherit !default;
 // scss-docs-end headings-variables
 
@@ -739,7 +749,8 @@ $display-font-sizes: (
 
 $display-font-family: null !default;
 $display-font-style: null !default;
-$display-font-weight: 300 !default;
+// $display-font-weight: 300 !default;
+$display-font-weight: 700 !default;
 $display-line-height: $headings-line-height !default;
 // scss-docs-end display-headings
 

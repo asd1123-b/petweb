@@ -59,6 +59,9 @@
 .bg-cover {
   background-position: center;
   background-size: cover;
+}
+
+.cardimg {
   height: 120px;
   border: 5px solid #fff;
   border-radius: 4px;
@@ -112,4 +115,26 @@
 .gridimg h5 {
   position: relative;
   z-index: 1;
+}
+
+.bannerimg {
+  height: 584px;
+}
+.containtext {
+  padding-top: 80px;
+}
+
+.col .display-5 {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.banner-grid {
+  grid-template-columns: 258px 258px 258px 1fr;
+  height: 212px;
+}
+
+.border-left {
+  border-left: 1px solid #fff;
+  padding-left: 16px;
 }
