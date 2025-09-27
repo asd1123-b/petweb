@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登入頁面</title>
+    <style>
+      body,
+      html {
+        height: auto;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <!-- 左圖右select -->
+    <div class="container">
+      <div class="d-flex banner-section">
+        <!-- 圖片 -->
+        <img
+          src="../assets/images/index-1.png"
+          alt="imdex-1"
+          class="me-30px"
+          style="max-width: 100%; display: block"
+        />
+        <!-- 右側select -->
+        <div class="pt-12 flex-grow-1">
+          <h1 class="h2 mb-9">登入</h1>
+          <div class="mb-4">
+            <label
+              for="exampleFormControlInput1"
+              class="form-label text-secondary-90"
+              >帳號/電子郵件</label
+            >
+            <input
+              type="email"
+              class="form-control text-secondary-60 w-100"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="inputPassword5" class="form-label text-secondary-90"
+              >密碼</label
+            >
+            <input
+              type="password"
+              id="inputPassword5"
+              class="form-control"
+              aria-describedby="passwordHelpBlock"
+              placeholder="請輸入密碼"
+            />
+            <a class="form-text font-size-sm text-secondary-60"> 忘記密碼 </a>
+          </div>
+          <div class="form-check mb-4">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="checkDefault"
+            />
+            <label
+              class="form-check-label text-secondary-60"
+              for="checkDefault"
+            >
+              記住我的帳號
+            </label>
+          </div>
+          <div class="row row-cols-2 g-3 mb-7">
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-secondary justify-content-center align-items-center w-100"
+              >
+                <img
+                  src="/assets/images/facebook.svg"
+                  alt="facebooklogo"
+                />Facebook
+              </button>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-outline-secondary justify-content-center align-item-center w-100"
+              >
+                <img src="/assets/images/google.svg" alt="googlelogo" />Google
+              </button>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary col-5">登入</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

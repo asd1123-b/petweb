@@ -13,11 +13,14 @@
   <body>
     <%- include('./layout/header'); -%>
     <div class="container">
-      <div class="d-flex align-items-center banner-section mb-9">
+      <!-- 左圖右select -->
+      <div class="d-flex align-items-center banner-section mb-10">
+        <!-- 圖片 -->
         <img src="../assets/images/index-1.png" alt="imdex-1" class="me-8" />
+        <!-- 右側select -->
         <div>
-          <h1 class="h1 fw-bold mb-3">寵物服務，盡在 PETPET</h1>
-          <h2 class="h4 fw-bold mb-6">
+          <h1 class="h1 fw-bold mb-4">寵物服務，盡在 PETPET</h1>
+          <h2 class="h4 fw-bold mb-8">
             當您的毛孩有需要時，幫您找到最合適的服務者！
           </h2>
           <div class="input-group">
@@ -59,25 +62,27 @@
           </button>
         </div>
       </div>
-      <div class="px-7 mb-9 banner-section">
+
+      <!-- 保母預約區 -->
+      <div class="px-85px mb-10 banner-section">
         <h3 class="h2 fw-bold mb-1">本月熱門保姆</h3>
-        <h4 class="h4 fw-bold mb-10">
+        <h4 class="h4 fw-bold mb-3">
           即時瞭解您的需求，安排最適合毛孩的寵物保姆！
         </h4>
-        <div class="row row-cols-3 g-4">
+        <div class="row row-cols-3 g-5">
           <!-- card 1 -->
           <div class="col">
             <div class="card banner-section shadow-sm">
               <div
-                class="card-img-top bg-cover cardimg mb-11"
+                class="card-img-top bg-cover cardimg mb-54px"
                 style="background-image: url(/assets/images/index-2.jpeg)"
               ></div>
               <img src="/assets/images/person-1.png" alt="" class="userimg" />
               <div class="card-body">
                 <h4 class="h4 fw-normal">Jamie</h4>
                 <p class="card-text fw-normal">寄宿、美容、寵物行為訓練</p>
-                <button type="button" class="btn btn-primary mb-4">預約</button>
-                <div class="d-flex justify-content-between px-12 pb-14">
+                <button type="button" class="btn btn-primary mb-5">預約</button>
+                <div class="d-flex justify-content-between px-72px mb-28px">
                   <div>
                     <p>獲得評價</p>
                     <div
@@ -104,15 +109,15 @@
           <div class="col">
             <div class="card banner-section shadow-sm">
               <div
-                class="card-img-top bg-cover cardimg mb-11"
+                class="card-img-top bg-cover cardimg mb-54px"
                 style="background-image: url(/assets/images/index-3.jpeg)"
               ></div>
               <img src="/assets/images/person-2.png" alt="" class="userimg" />
               <div class="card-body">
                 <h4 class="h4 fw-normal">Eric</h4>
                 <p class="card-text fw-normal">寄宿、美容</p>
-                <button type="button" class="btn btn-primary mb-4">預約</button>
-                <div class="d-flex justify-content-between px-12 pb-14">
+                <button type="button" class="btn btn-primary mb-5">預約</button>
+                <div class="d-flex justify-content-between px-72px mb-28px">
                   <div>
                     <p>獲得評價</p>
                     <div
@@ -139,15 +144,15 @@
           <div class="col">
             <div class="card banner-section shadow-sm">
               <div
-                class="card-img-top bg-cover cardimg mb-11"
+                class="card-img-top bg-cover cardimg mb-54px"
                 style="background-image: url(/assets/images/index-4.jpeg)"
               ></div>
               <img src="/assets/images/person-3.png" alt="" class="userimg" />
               <div class="card-body">
                 <h4 class="h4 fw-normal">Yvonne</h4>
                 <p class="card-text fw-normal">美容、寵物行為訓練</p>
-                <button type="button" class="btn btn-primary mb-4">預約</button>
-                <div class="d-flex justify-content-between px-12 pb-14">
+                <button type="button" class="btn btn-primary mb-5">預約</button>
+                <div class="d-flex justify-content-between px-72px mb-28px">
                   <div>
                     <p>獲得評價</p>
                     <div
@@ -170,6 +175,7 @@
               </div>
             </div>
           </div>
+          <!-- 右滑小按鈕 -->
           <button
             type="button"
             class="btn btn-primary-90 btn-right rounded-circle"
@@ -178,13 +184,14 @@
           </button>
         </div>
       </div>
-      <div class="px-7 mb-9 banner-section">
+      <!-- 線上預約服務 -->
+      <div class="px-85px mb-10 banner-section">
         <h3 class="h2 fw-bold mb-1">線上預約</h3>
-        <h4 class="h4 fw-bold mb-10">
+        <h4 class="h5 fw-bold mb-3">
           即時瞭解您的需求，安排最適合毛孩的寵物保姆！
         </h4>
         <div
-          class="d-grid gap-15"
+          class="d-grid gap-6px"
           style="
             grid-template-columns: 350px 303px 267px 172px;
             grid-template-rows: repeat(2, 172px);
@@ -208,7 +215,7 @@
           >
             <h5 class="text-secondary-0 h4 mb-0">寵物美容</h5>
           </div>
-          <div class="d-grid gap-15" style="grid-template-rows: 172px 172px">
+          <div class="d-grid gap-6px" style="grid-template-rows: 172px 172px">
             <div
               style="background-image: url(/assets/images/index-7.jpeg)"
               class="gridimg"
@@ -234,6 +241,7 @@
         </div>
       </div>
     </div>
+    <!-- banner -->
     <section
       style="
         background-image: url(/assets/images/gayatri-malhotra-38iYfX4Rk8A-unsplash.jpg);
@@ -241,27 +249,30 @@
       class="bannerimg bg-cover"
     >
       <div class="container">
-        <h1 class="h1 text-secondary-0 pt-9 mb-16 fw-bold">PETPET目前已有</h1>
+        <h1 class="h1 text-secondary-0 pt-80px mb-100px fw-bold">
+          PETPET目前已有
+        </h1>
         <div class="d-grid gap-0 banner-grid">
           <div class="border-left">
-            <p class="display-5 pl-3 text-secondary-0 fw-bold">5278</p>
+            <p class="display-5 pl-5 text-secondary-0 fw-bold">5278</p>
             <p class="h5 text-secondary-0 fw-bold">人使用 PETPET</p>
           </div>
           <div class="border-left">
-            <p class="display-5 pl-3 text-secondary-0 fw-bold">580</p>
+            <p class="display-5 pl-5 text-secondary-0 fw-bold">580</p>
             <p class="h5 text-secondary-0 fw-bold">人成為寵物保母</p>
           </div>
           <div class="border-left">
-            <p class="display-5 pl-3 text-secondary-0 fw-bold">10000+</p>
+            <p class="display-5 pl-5 text-secondary-0 fw-bold">10000+</p>
             <p class="h5 text-secondary-0 fw-bold">已完成服務</p>
           </div>
         </div>
       </div>
     </section>
+    <!-- 預約流程圖 -->
     <section class="container">
-      <div class="py-9 px-7">
+      <div class="py-80px px-85px">
         <h3 class="h2 mb-1">預約流程</h3>
-        <h4 class="h4 mb-10">輕鬆三步驟，立即獲取最佳服務！</h4>
+        <h4 class="h4 mb-3">輕鬆三步驟，立即獲取最佳服務！</h4>
         <div class="row">
           <div class="col">
             <p class="fs-5 lh-1 fw-medium">1.查詢想要的服務</p>
@@ -278,10 +289,11 @@
         </div>
       </div>
     </section>
+    <!-- cta區 -->
     <section class="cta-section bg-primary-10">
-      <div class="container py-17 px-7">
+      <div class="container py-36px px-85px">
         <h1 class="h1 mb-2">有任何我們能幫助您的嗎？</h1>
-        <p class="h5 fw-medium mb-3">
+        <p class="h5 fw-medium mb-5">
           輸入電子信箱<br />將有專業人員在線幫您解決所有問題
         </p>
         <div class="input-group w-50 cta-group">

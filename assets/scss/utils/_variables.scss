@@ -442,49 +442,78 @@ $gradient: linear-gradient(
 // You can add more entries to the $spacers map, should you need more variation.
 
 // scss-docs-start spacer-variables-maps
+// $spacer: 1rem !default;
+// $spacers: (
+//   // 0px
+//   0: 0,
+//   // 4px
+//   1: $spacer * 0.25,
+//   // 8px
+//   2: $spacer * 0.5,
+//   // 16px
+//   3: $spacer,
+//   // 24px
+//   4: $spacer * 1.5,
+//   // 40px
+//   5: $spacer * 2.5,
+//   // 48px
+//   6: $spacer * 3,
+//   // 85px
+//   7: $spacer * 5.3125,
+//   // 30px
+//   8: $spacer * 1.878,
+//   // 80px
+//   9: $spacer * 5,
+//   // 12px
+//   10: $spacer * 0.75,
+//   // 54px
+//   11: $spacer * 3.375,
+//   // 72px
+//   12: $spacer * 4.5,
+//   // 60px
+//   13: $spacer * 3.75,
+//   // 28px
+//   14: $spacer * 1.75,
+//   // 6px
+//   15: $spacer * 0.375,
+//   // 100px
+//   16: $spacer * 6.25,
+//   // 36px
+//   17: $spacer * 2.25,
+//   // 70px
+//   18: $spacer * 4.375,
+//   // 108px
+//   19: $spacer * 6.75
+// ) !default;
 $spacer: 1rem !default;
 $spacers: (
-  // 0px
   0: 0,
+  // 0px
+  1: 0.25rem,
   // 4px
-  1: $spacer * 0.25,
+  2: 0.5rem,
   // 8px
-  2: $spacer * 0.5,
-  // 16px
-  3: $spacer,
-  // 24px
-  4: $spacer * 1.5,
-  // 40px
-  5: $spacer * 2.5,
-  // 48px
-  6: $spacer * 3,
-  // 85px
-  7: $spacer * 5.3125,
-  // 30px
-  8: $spacer * 1.878,
-  // 80px
-  9: $spacer * 5,
+  3: 0.75rem,
   // 12px
-  10: $spacer * 0.75,
-  // 54px
-  11: $spacer * 3.375,
-  // 72px
-  12: $spacer * 4.5,
-  // 60px
-  13: $spacer * 3.75,
-  // 28px
-  14: $spacer * 1.75,
-  // 6px
-  15: $spacer * 0.375,
-  // 100px
-  16: $spacer * 6.25,
-  // 36px
-  17: $spacer * 2.25,
-  // 70px
-  18: $spacer * 4.375,
-  // 108px
-  19: $spacer * 6.75
+  4: 1rem,
+  // 16px
+  5: 1.5rem,
+  // 24px
+  6: 2rem,
+  // 32px
+  7: 2.5rem,
+  // 40px
+  8: 3rem,
+  // 48px
+  9: 4rem,
+  // 64px
+  10: 5rem,
+  // 80px
+  11: 6rem,
+  // 96px
+  12: 8rem // 128px,,,,,
 ) !default;
+
 // scss-docs-end spacer-variables-maps
 
 // Position
